@@ -10,3 +10,7 @@ target_compile_options(${PROJECT_NAME}
     PRIVATE
         ${CXX_SERVICE_TEMPLATE_COMPILER_FLAGS}
 )
+target_link_libraries(${PROJECT_NAME}
+    PRIVATE
+        fmt::fmt
+)
