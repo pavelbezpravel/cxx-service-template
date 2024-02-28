@@ -1,0 +1,3 @@
+# C++ service template
+
+***WIP***
